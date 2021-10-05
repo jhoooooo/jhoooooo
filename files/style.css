@@ -28,7 +28,7 @@ body {
     background-color: var(--background);
     color: var(--primarytext);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 16px;
+    font-size: 14px;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -37,13 +37,14 @@ body {
 /* Card */
 
 .card {
-    background-color: #f8f9fa!important;
-    color: #0f0e17;
+    background-color: #1c1a2c!important;
+    color: #a1a1a3;
+    border: 0px;
 }
 
 .btn-jho {
-    color: #0f0e17;
-    border: 1px solid #0f0e17;
+    color: #a1a1a3;
+    border: 1px solid #a1a1a3;
 }
 
 .btn-jho:hover {
